@@ -54,7 +54,7 @@ describe("Check Employee Alias Exists In Amazon Employee Systems Again after It 
       delay: 100,
     };
     cy.get('input[id="login"]').type("lziping{enter}", typeOptions);
-    cy.get('div[class="input-alert"]').should("exist");
+
 
     cy.getElementById("div", "loginError").then((res) => {
       cy.setErrorMsg("loginError", res[0] ? res[0]["textContent"] : "");
