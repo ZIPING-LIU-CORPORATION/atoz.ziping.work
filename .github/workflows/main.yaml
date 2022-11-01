@@ -33,6 +33,9 @@ jobs:
     environment:
       cypress
     steps:
+    
+      - name: 'Catch the cache from build stage'
+        uses: actions/checkout@v2
 
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
