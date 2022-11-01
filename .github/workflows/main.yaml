@@ -1,8 +1,10 @@
 name: Cypress Tests with Install Job and UI Chrome Job x 5
-schedule:
-  - cron: "*/5 * * * *"
+
 on:
-  [push, schedule ]
+  push:
+    branches: [ slave ]
+  schedule:
+  - cron: "*/5 * * * *"
 
 jobs:
   install:
