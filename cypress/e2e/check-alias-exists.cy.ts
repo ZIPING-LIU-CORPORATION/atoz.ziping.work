@@ -5,7 +5,20 @@
 
 describe('Check Employee Alias Exists In Amazon Employee Systems Again after It was Deleted egregiously on May 5th', ()=> {
     beforeEach(()=>{
+
+        cy.intercept('GET', '/idp/profile/SAML2/Unsolicited/SSO/*', (req)=> {
+            const successCode = /2[0-9]{2}/
+            const reqCodeType = successCode.exec(req.headers.statusCode as string);
+
+            expect(reqCodeType && reqCodeType[1] != undefined)
+
+
+            
+        }).as('visitAmazonEmployeeFacebookLogin')
+
         cy.visit('https://atoz.amazon.work')
+
+        cy.wait('@visitAmazonEmployeeFacebookLogin')
 
         cy.location('pathname', {timeout: 3000}).should('include', 'Unsolicited')
     
