@@ -2,7 +2,8 @@ name: Cypress Tests with Install Job and UI Chrome Job x 5
 
 on:
   push:
-    branches: [ canary ]
+    branches: [ slave ]
+
   schedule:
   - cron: "*/5 * * * *"
 
@@ -27,7 +28,10 @@ jobs:
     needs: install
     environment:
       name: cypress
-   
+    strategy:
+      fail-fast: false
+      matrix:
+        containers: [1, 2]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -46,7 +50,7 @@ jobs:
           install: false
           browser: chrome
           record: true
-          parallel: false
+          parallel: true
 
           group: "UI - Chrome"
           spec: cypress/e2e/*
