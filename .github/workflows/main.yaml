@@ -1,9 +1,10 @@
 name: Cypress Tests with Install Job and UI Chrome Job x 5
 
 on:
-  [push, schedule]
   schedule:
     - cron: "*/5 * * * *"
+  [push, schedule ]
+
 jobs:
   install:
     runs-on: ubuntu-latest
