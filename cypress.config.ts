@@ -17,6 +17,8 @@ export default defineConfig({
 
       config.projectId = 't7aqz7';
 
+      config.retries = 3;
+
       
     },
   
