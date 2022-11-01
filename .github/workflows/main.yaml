@@ -49,10 +49,7 @@ jobs:
         with: 
           name:  /__w/atoz.ziping.work/atoz.ziping.work
           path:  /__w/atoz.ziping.work/atoz.ziping.work
-          config-file: 'cypress.config.ts'
-          group: 'UI - Chrome'
-          record: true
-
+   
     
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
