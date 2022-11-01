@@ -20,12 +20,9 @@ jobs:
           build: npm install
 
 
-      - name: Cypress install
-        uses: cypress-io/github-action@v4.2.0 # use the explicit version number
-        with:
-          # Disable running of tests within install job
-          runTests: false
-          build: npm run build
+    # download cached ~/.npm and ~/.cache/Cypress
+    - name: Cypress cache
+      uses: cypress-io/github-action@v2
 
 
   ui-chrome-tests:
