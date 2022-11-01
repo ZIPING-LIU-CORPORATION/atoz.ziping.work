@@ -1,8 +1,11 @@
 name: Cypress Tests with Install Job and UI Chrome Job x 5
 
 
-on: [push]
-
+ on:
+    schedule:
+      - cron: '*/5 * * * *'
+    push:
+  
 jobs:
 
 
@@ -50,9 +53,7 @@ jobs:
      
 
       - name: 'UI Tests - Chrome'
-        on:
-          schedule:
-            - cron: '*/5 * * * *'
+       
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
         with:
           # we have already installed all dependencies above
