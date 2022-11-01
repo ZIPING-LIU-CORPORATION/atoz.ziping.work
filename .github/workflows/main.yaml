@@ -33,9 +33,17 @@ jobs:
     environment:
       cypress
     steps:
-    
-      - name: 'Catch the cache from build stage'
+      - name: UI Tests - Checkout a new env
         uses: actions/checkout@v2
+        
+
+
+      # download cached ~/.npm and ~/.cache/Cypress
+      - name: UI Tests - Cache the caches
+        uses: cypress-io/github-action@v2
+        with: 
+          config-file: 'cypress.config.ts'
+
 
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
@@ -44,8 +52,6 @@ jobs:
           install: false      
           browser: chrome
           record: true
-          parallel: true
-          group: 'UI - Chrome'
           spec: cypress/e2e/*
           config-file: 'cypress.config.ts'
 
