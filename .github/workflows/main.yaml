@@ -20,9 +20,9 @@ jobs:
           build: npm install
 
 
-    # download cached ~/.npm and ~/.cache/Cypress
-    - name: Cypress cache
-      uses: cypress-io/github-action@v2
+      # download cached ~/.npm and ~/.cache/Cypress
+      - name: Cypress cache
+        uses: cypress-io/github-action@v2
 
 
   ui-chrome-tests:
