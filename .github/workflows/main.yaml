@@ -41,8 +41,8 @@ jobs:
       - name: Cypress cache
         uses: actions/download-artifact@v2
         with: 
-          name:  /__w/atoz.ziping.work/atoz.ziping.work
-          path:  /__w/atoz.ziping.work/atoz.ziping.work
+          name:  build
+          path:  build
    
     
       - name: 'UI Tests - Chrome'
