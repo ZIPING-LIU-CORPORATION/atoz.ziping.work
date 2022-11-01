@@ -38,12 +38,12 @@ jobs:
         
 
 
-      # download cached ~/.npm and ~/.cache/Cypress
-      - name: UI Tests - Cache the caches
-        uses: cypress-io/github-action@v2
-        with: 
-          config-file: 'cypress.config.ts'
-          run-tests: 'false'
+   ## Only needed if uploading artif during install
+     #- name: UI Tests - Cache the caches
+      #  uses: actions/downloadn@v2
+     #with: 
+       #     config-file: 'cypress.config.ts'
+      #run-tests: 'false'
 
 
       - name: 'UI Tests - Chrome'
