@@ -36,7 +36,8 @@ jobs:
     name: Catch the Cache of the Cypress then Run the Existency Check for Employee Alias in Amazon Databases
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.6.0-chrome105-ff104
-    environment: ['cypress']
+    environment:
+      cypress
     strategy: 
       fail-fast: false
       matrix:
