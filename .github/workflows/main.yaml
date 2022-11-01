@@ -1,13 +1,19 @@
 name: Cypress Tests with Install Job and UI Chrome Job x 5
-
 on:
+  label:
+    [created, deleted, edited]
   push:
-    branches: [ slave ]
-
+    branches: [main]
   schedule:
-  - cron: "*/5 * * * *"
+    - cron: '*/5 * * * *'
+  [push, schedule]
 
+
+   
+  
 jobs:
+
+
   install:
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.6.0-chrome105-ff104
@@ -22,39 +28,47 @@ jobs:
           runTests: false
           build: npm install
 
+
+
+
   ui-chrome-tests:
+
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.6.0-chrome105-ff104
     needs: install
-    environment:
+    environment: 
       name: cypress
-    strategy:
+    strategy: 
       fail-fast: false
       matrix:
-        containers: [1, 2]
+        containers: [1,2,3,4]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
+
+
       # download cached ~/.npm and ~/.cache/Cypress
       - name: Cypress cache
         uses: cypress-io/github-action@v2
-        with:
-          config-file: "cypress.config.ts"
+        with: 
+          config-file: 'cypress.config.ts'
 
-      - name: "UI Tests - Chrome"
+    
+     
 
+      - name: 'UI Tests - Chrome'
+       
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
         with:
           # we have already installed all dependencies above
-          install: false
+          install: false      
           browser: chrome
           record: true
           parallel: true
-
-          group: "UI - Chrome"
+          group: 'UI - Chrome'
           spec: cypress/e2e/*
-          config-file: "cypress.config.ts"
+          config-file: 'cypress.config.ts'
 
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
