@@ -1,9 +1,8 @@
 name: Cypress Tests with Install Job and UI Chrome Job x 5
 
-on: 
-  schedule:
-     - cron: "*/5 * * * *"
-  push
+
+on: [push]
+
 jobs:
 
 
@@ -25,6 +24,7 @@ jobs:
 
 
   ui-chrome-tests:
+
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.6.0-chrome105-ff104
     needs: install
@@ -50,6 +50,9 @@ jobs:
      
 
       - name: 'UI Tests - Chrome'
+        on:
+          schedule:
+            - cron: '*/5 * * * *'
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
         with:
           # we have already installed all dependencies above
