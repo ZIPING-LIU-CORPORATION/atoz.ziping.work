@@ -1,12 +1,19 @@
 # Requested Concern Unresolved Since May 5th 2022 - Issue Checker Tracker
  
 ## So There's one Item of Concern That Should have Been Resolved 
-Ziping Liu has been requesting for assitance on this matter with emails sent to ERC, VPs and HR USA of Amazon since [May](https://liu.academy/may/saga)
+Ziping Liu has been requesting for assistance on this matter with emails sent to ERC, VPs and HR USA of Amazon since Maia 5, So on May 5th, there was a very special event that happened which caused and is still causing the issue to remain:
 
-## So on May 5th, there was a very special event that happened which caused and is still causing the issue to remain:
+In particular, May 5th marks the day when Amazon removed @lziping's work account illegally because the disabling or deletion was not pre-scheduled and occurred suddenly and without warning, to my knowledge, and I had no idea that it would just happen in such a dramatic way.
 
-Specifically, May 5th is the event in which Amazon legal illegaly deleted @lziping's work account, 
-because the deletion or disabling was not pre-scheduled and happened suddenly and without any warning or notice or even to my knowledge, I had no idea it was going to just happen with such a dramatic way of doing so:
+#### Amazon Legal did it so shockingly in blatant adverse intent,
+Doing specifically an action which was a killswitch or turning off all his work laptops via a logout remote forced idiocy..., Just like one of those infamous black screen virus attacks on your PC.
+
+### ALL WHILE, NOT WHEN ZIPPING WAS SLEEPING, OH NO, DURING THE MIDDLE OF THE DAY:
+Ziping Liu was in the middle of a slack/chime chat with Betthom@amazon.com. You should have been there to see it in person.The reason for this is that I was recently in a serious chat with Betthom@amazon.com as we were discussing something terrible that has occurred. As she tells me, I am unable to do much. She then says: I can only recommend you talk to career wellness, because their department does not participate in it. In appreciation of her good faith, I sent her my terms and conditions, and immediately, my laptop turns black, I realize I am completely logged out, and I do not have any way of contacting Betthom ever again. At that point, I realized that I had been completely cut off from the Amazon world, and I knew my world was over at that moment, the END. I have been operating in two sectors at the same time, so I am in the middle of two processes. Could we please resolve this issue? I am very done with this stall in my life. You guys At amazon realize like everything in my life right now is just out of order, and not at all with normalcy of any type of actual life in stability? Great, I'm glad your Amazon legal team was able to rehearse some act to then display as a show to the entire amazon work force of its might and power. I'm glad you guys have shut off my world and turned my life off since May. Can we now seriously have some things executed already? I'm not going to stay this way forever. And if I have to do it the way I am getting the feeling, that might actually be required, you do realize that means prison sentencing for a lot of you VPs ?
+
+## SO to buy you guys more time, at the corporate tower of non-action:
+
+I set up a canary to check if it works or not so I don't have to. Canaries! I am glad I have my friendly birds to help out. No thanks to the FMLA marty walsh.
 
 ## Amazon Legal did it so shockingly in blatant adverse intent, 
 
@@ -23,23 +30,38 @@ So that's why I have been inbetween two sectors. Can we please resovle this issu
 I set up a canary to check if it works or not so I don't have to. Canaries! I am glad i have my friendly birds to help out. No thanks to the FMLA marty walsh. 
 
 
-## Canaries
+# Canaries
+So I'm almost done trailblazing the course examples LIU LLC will use for the web design 101 course to be released.
 
-So I'm almost done trailblazing the course examples LIU LLC is going to use for the web design 101 course to be released. There's one thing that is very important about web sites and its availability to users. This now goes into a whole new real of web devleopment which a lot of ppl seem to hate and think of as stupid work or work that is not at all difficult or requires much brain thought and seems to think that it is just work for idiots to do. cough cough cough, specifically which is part of the reason I'm in this idiocy of retaliation as well...?? Like this is seroiusly the dumbest campaign ever, given it was just a bunch of small idiocy that somehow attached thesmelves together to form one entire mega idiocy, of retaliation,  as we see now.
+## There is one thing that is very important regarding web sites 
 
+**and the availability of them to outside traffic/readership/corpexecstudents** It now goes into a whole new dimension of web development, which many people seem to dislike and think is not at all difficult or requires much brainpower and is viewed as merely a job for idiots. It is specifically that reason that I am also engaged in this idiocy of retaliation...? 
 
-### Canaries Run Every 1-5 minutes and check if Ziping Liu's @lziping Amazon Employee Login exists or works or not. It assumes that it is still in an egregiously covered up and disabled state so it passes the canary run 'or the canary's assertion for the error', hence a canary run does not at all take much or any time. It is supposed to be fast. But just because these are fast checks doesn't mean that they are actualy like very brainless non-ability filled of ppl working on such, type of programming? Seriously? 
+_This campaign is seriously one of the stupidest campaigns ever, as it was composed of numerous small idiocies that somehow attached themselves to one entire mega idiocies of retaliation, as we can see now._
 
-###
-I won't rant much else but this is a very direct aggression like I'm not just ranting because I have this addiction to DEV OPS, no. 
+## Each 1-5 minutes, Canaries check 
 
-It's because DEV OPS is not actually at all the type of brainless work, and very unimportant work that my manager told me verbatim, and hence I have no idea why, but my performance review and reports of my ability suddenly written as, in verbaitm, not meeting anywhere near the average ability expected from Amazon Developers, because in her words: "amazon is a competitive company and has the highest quality devleopers. You are no where near the metrics seen, and are just below average in ability." And I was like really? So can I try to improve with more support then from you because I can tell you are angry. And she said, we wil have to see, I'm not sure if there's any leeway for allowance of individuals marked as below average and able to have their own set of standards lower than the rest.
+Ziping Liu's @lziping Amazon Employee Login for validity or non-existence. In this case, the canary assumes that it is still in an egregiously concealed and disabled state, which is why it passes a canary test 'or the canary's assertion that the error exists', therefore a canary test takes very little time, which is intended for speed. Even though these are fast checks, does this not mean that they represent brainless, non-ability filled individuals working on such programming? Seriously?
 
-And I'm just like, like, are you kidding me? Well I can't blame you for see the IQ scores I posted on my LinkedIn. I do have an IQ of 100 so I am retarded. I guess I will go get accodmations for my hadnicap of retardness from Amazon DLS then. 
+As I mentioned earlier, I will not rant much else but such statements were actually a very directed attack against me... 
 
-ANd so, that all was what happend in February, and March. And then we had April, and so yes, can you see how this is a very just, insane trail of events. Hence, can you aunderstand my own passion and drive to study it? It is such a phenonomally insane spectrum of colors in collision, you just cannot tell me, such things wouldn't have made you filled with a curious drive to understand more of this source of malfunction then, no?
+### Canaries Run Every 1-5 minutes and check if Ziping Liu's @lziping Amazon Employee Login exists or works or not. 
 
-Okay,
+_**It assumes that it is still in an egregiously**_ **covered** up and **disabled** state so it passes the canary run 'or the canary's assertion for the error', hence a canary run does not at all take much or any time. It is supposed to be fast. But just because these are fast checks doesn't mean that they are actualy like very brainless non-ability filled of ppl working on such, type of programming? Seriously? 
+
+_As I mentioned earlier, I will not rant much else but such statements were actually a very directed attack against me..._ 
+
+**The reason I am ranting is not because I am addicted to development operations.** But, simply, due to the fact that DEVOPS is not actually brainless work; yet was stated as very unimportant by my manager in verbatim, I do not know why DEVOPS is considered brainless work...
+
+### Because by the very definitation of DEV OPS
+To the most compliant,  in good standing, and within good faith sectors or business always view DEV OPS as not actually at all the type of brainless work, and very unimportant work that my manager told me verbatim, _**and hence I have no idea why**_, but my performance review and reports of my ability suddenly written as, in verbaitm, _**not meeting anywhere near the average ability expected from Amazon Developers**_, because in her words: "_amazon is a competitive company and has the highest quality devleopers. You are no where near the metrics seen, and are just below average in ability._" 
+
+### And I was like really? 
+So can I try to improve with more support then from you because I can tell you are angry. And she said, we wil have to see, _**I'm not sure if there's any leeway for allowance of individuals marked as below average and able to have their own set of standards** lower than the rest._
+
+My response was, "**Are you kidding me?**" Well, I can't blame you for seeing my LinkedIn IQ score since I have an IQ rating of 100 which makes me retarded. I guess I'll seek accommodation from Amazon DLS for my retardation.
+
+Thus, that was all that transpired in February, March, and April. Now, yes, can you see that this is a very just, insane chain of events. Consequently, do you understand why I am passionate about this field and why I want to study it so much? The spectrum of colors in collision is so phenomenally insane that you cannot explain why such things would not have made you curious to discover more about the source of malfunction in the first place, would they?
 
 View the Actions [here](https://github.com/ZIPING-LIU-CORPORATION/atoz.ziping.work/actions)
 
