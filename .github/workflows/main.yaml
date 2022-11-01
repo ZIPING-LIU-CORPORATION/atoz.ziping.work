@@ -32,24 +32,26 @@ jobs:
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.6.0-chrome105-ff104
     needs: install
-   
+
+    strategy: 
+      fail-fast: false
+      matrix:
+        containers: [1,2,3,4]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
 
+    
      
 
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
         with:
           # we have already installed all dependencies above
-          install: false
-          start: npm run start
-          wait-on: 'http://localhost:3000'
-          wait-on-timeout: 120
+          install: false      
           browser: chrome
           record: true
-          parallel: false
+          parallel: true
           group: 'UI - Chrome'
           spec: cypress/e2e/*
         env:
