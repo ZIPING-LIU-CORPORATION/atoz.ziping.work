@@ -16,6 +16,8 @@ export default defineConfig({
       config.configFile = path.resolve(__dirname, 'cypress.config.ts');
 
       config.projectId = 't7aqz7';
+
+      
     },
   
     supportFile: path.resolve(__dirname, 'cypress/support/e2e.js')
