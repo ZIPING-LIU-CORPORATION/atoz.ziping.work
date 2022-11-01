@@ -1,6 +1,12 @@
 {
   "name": "atoz.ziping.work",
-  "version": "1.0.0",
+   "engineStrict": true,
+   "repository": {
+    "type": "github",
+    "url": "https://github.com/ZIPING-LIU-CORPORATION/atoz.ziping.work.git"
+   },
+   "author": "Ziping Liu <dev@a2z.money> (https://a2z.money)",
+   "version": "2.0.0",
   "dependencies": {
     "@cypress/github-action": "4.2.0",
     "@cypress/webpack-preprocessor": "^5.15.1",
@@ -15,11 +21,13 @@
     "path": "^0.12.7",
     "ts-jest": "^29.0.3"
   },
+  "license": "Harvard",
+
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "build": "cypress install",
-    "start": "cypress run"
+    "start": "cypress run --config-file=cypress.config.ts --e2e --"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",

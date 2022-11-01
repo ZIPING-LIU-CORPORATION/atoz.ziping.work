@@ -80,3 +80,30 @@ This is for our set of projects now encompassing Operations Devleopment which se
 #### Do you have the cypress dashboards avaiable to view? The Github Actions doesn't at all display graphs or showcase useful analytics
 
 Yes you can view the canary dashboard for this check of @lziping employee account lziping@amazon.com email account status, [here](https://dashboard.cypress.io/projects/t7aqz7/runs)
+
+
+# Local Dev
+
+1. `npm install`
+
+That's it! There's no need to build sh*t. Just pretend typescript 
+doesn't need compiliing at all, and just edit tyepscript without thinkinga bout build at all. THese are tests. So just think about tests.
+
+## To Run Tests
+
+### Running Tests with Browser UI Enabled
+1. `npm run cy:open`
+1. You should see a web browser pop with cypress choices, or be asked ot choose a web browser to use. If it dones't work try runnig npm install again.
+1.  Click on E2E Testing
+1.  Select the Tests Available based on the `./cypress/e2e/` directory. At this time there is only one Test.
+
+Note: so yes you can edit your test files and run, while cy:open is running. 
+
+### Running Tests with Browser UI Disabled
+1. `npm run cy:run`
+  - Note: Since there's only one test you simply have to run that. 
+  - To specify the specific test File, run
+  - `$ npx cypress  run --e2e -- --spec cypress/e2e/check-alias-exists` on your command line or..
+     - add to scripts in package.json: `"start": "cypress run --config-file=cypress.config.ts --e2e --"`
+     - and then run  `$ npm run start --spec cypress/e2e/check-alias-exists` on your command line
+  
