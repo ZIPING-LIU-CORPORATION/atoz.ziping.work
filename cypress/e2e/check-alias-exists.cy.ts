@@ -53,7 +53,10 @@ describe("Check Employee Alias Exists In Amazon Employee Systems Again after It 
     const typeOptions: Partial<Cypress.TypeOptions> = {
       delay: 100,
     };
+
+    cy.intercept('GET', '/sso/login').as('submitReset'); 
     cy.get('input[id="login"]').type("lziping{enter}", typeOptions);
+    cy.wait('@submitReset');         
 
 
     cy.getElementById("div", "loginError").then((res) => {
