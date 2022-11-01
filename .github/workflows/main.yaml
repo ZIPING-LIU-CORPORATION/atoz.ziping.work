@@ -45,7 +45,7 @@ jobs:
 
 
       - name: Cypress cache
-        uses: cypress-io/github-action@v2
+        uses: actions/download-artifact@v2
         with: 
           name:  /__w/atoz.ziping.work/atoz.ziping.work
           path:  /__w/atoz.ziping.work/atoz.ziping.work
