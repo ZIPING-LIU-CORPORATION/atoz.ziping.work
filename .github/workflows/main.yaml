@@ -23,6 +23,8 @@ jobs:
           # Disable running of tests within install job
           runTests: false
           build: npm install
+          config-file: 'cypress.config.ts'
+
 
 
   ui-chrome-tests:
@@ -36,14 +38,14 @@ jobs:
       - name: UI Tests - Checkout a new env
         uses: actions/checkout@v2
         
+      
+      - name: Cypress Cache Install
+        uses: cypress-io/github-action@v4.2.0 # use the explicit version number
+        with:
+          config-file: 'cypress.config.ts'
+          runTests: false
 
 
-   ## Only needed if uploading artif during install
-     #- name: UI Tests - Cache the caches
-      #  uses: actions/downloadn@v2
-     #with: 
-       #     config-file: 'cypress.config.ts'
-      #run-tests: 'false'
 
 
       - name: 'UI Tests - Chrome'
