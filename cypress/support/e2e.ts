@@ -18,7 +18,6 @@
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-import {waterfall} from 'async';
 
 
 Cypress.Commands.add('clearCookieList', (cookieList: string[])=>{
@@ -32,4 +31,38 @@ Cypress.Commands.add('clearCookieList', (cookieList: string[])=>{
     for(const leftoverCookie of leftoverCookies) {
         cy.clearCookie(leftoverCookie);
     }
+})
+
+
+Cypress.Commands.add('setErrorMsg', (key, value) => {
+    // Turn off logging of the cy.window() to command log
+    cy.window({ log: false }).then((window) => {
+      window.sessionStorage.setItem(key, value)
+    })
+  
+  Cypress.log({
+      name: 'setErrorMsg',
+      // shorter name for the Command Log
+      displayName: 'Error Msg Displayed After Attempting @lziping Work Accnt Reset',
+      message: `${key}, ${value}`,
+      consoleProps: () => {
+        // return an object which will
+        // print to dev tools console on click
+        return {
+          Key: key,
+          Value: value,
+          'Session Storage': window.sessionStorage,
+        }
+      },
+    })
+})
+
+Cypress.Commands.add('getElementById', (parentTag:string,key:string)=>{
+    const elems: HTMLElement[] = [];
+    cy.$$(parentTag).children().each((ind, el)=>{
+        if(el.id == key){
+            elems.push(el);
+        }
+    })
+    return cy.wrap(elems);
 })

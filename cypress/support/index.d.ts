@@ -6,5 +6,9 @@ declare namespace Cypress {
         // @param selector 
         // @param value
         clearCookieList(list: string[]): Chainable<Element>
+        setErrorMsg(key:string, value:any): Chainable<Element>
+
+        getElementById(parentTag: string, id:string): Chainable<HTMLelement[]>
     }
 }
+
