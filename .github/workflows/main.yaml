@@ -43,6 +43,7 @@ jobs:
         uses: cypress-io/github-action@v2
         with: 
           config-file: 'cypress.config.ts'
+          run-tests: 'false'
 
 
       - name: 'UI Tests - Chrome'
@@ -54,6 +55,7 @@ jobs:
           record: true
           spec: cypress/e2e/*
           config-file: 'cypress.config.ts'
+          run-tests: 'true'
 
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
