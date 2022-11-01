@@ -1,7 +1,5 @@
 name: Cypress Tests with Install Job and UI Chrome Job x 5
 on:
-  label:
-    [created, deleted, edited]
   push:
     branches: [main]
   schedule:
