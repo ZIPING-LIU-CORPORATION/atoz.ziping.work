@@ -1,5 +1,10 @@
-# Requested Concern Unresolved Since May 5th 2022 - Issue Checker Tracker
+
+## Fast Status of Concern Resolutions Real-Time
+[![atoz.ziping.work](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/t7aqz7/canary&style=for-the-badge&logo=cypress)](https://dashboard.cypress.io/projects/t7aqz7/runs) _**Note**_: **_unfortunately_** **if the tests are passing** _that means the concerns of Ziping Liu, for Amazon Corp HR IT Exec's to resolve, requested in May,_ **has** _still_ **not** _been_ **resolved.** 
  
+# Requested Concern Unresolved Since May 5th 2022 - Issue Checker Tracker
+
+
 ## So There's one Item of Concern That Should have Been Resolved 
 Ziping Liu has been requesting for assistance on this matter with emails sent to ERC, VPs and HR USA of Amazon since Maia 5, So on May 5th, there was a very special event that happened which caused and is still causing the issue to remain:
 
