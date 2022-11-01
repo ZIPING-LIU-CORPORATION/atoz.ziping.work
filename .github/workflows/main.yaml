@@ -21,7 +21,7 @@ jobs:
         with:
           # Disable running of tests within install job
           runTests: false
-          build: npm run install
+          build: npm install
 
       - name: Save /__w/atoz.ziping.work/atoz.ziping.work folder
         uses: actions/upload-artifact@v2
