@@ -17,3 +17,19 @@
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+import {waterfall} from 'async';
+
+
+Cypress.Commands.add('clearCookieList', (cookieList: string[])=>{
+     const leftoverCookies = [];
+    for(const cookie of cookieList) {
+        if(cy.clearCookie(cookie).getCookie(cookie) != null){
+            leftoverCookies.push(cookie);
+        }
+    }
+
+    for(const leftoverCookie of leftoverCookies) {
+        cy.clearCookie(leftoverCookie);
+    }
+})

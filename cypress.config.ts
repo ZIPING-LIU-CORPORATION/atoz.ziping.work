@@ -22,6 +22,6 @@ export default defineConfig({
       
     },
   
-    supportFile: path.resolve(__dirname, 'cypress/support/e2e.js')
+    supportFile: path.resolve(__dirname, 'cypress/support/e2e.ts')
   },
 });
