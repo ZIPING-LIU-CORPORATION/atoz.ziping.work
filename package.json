@@ -15,7 +15,10 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run"
+    "cy:run": "cypress run",
+
+    "build": "cypress install",
+    "start": "cypress run"
   },
   "devDependencies": {
     "@types/dotenv": "^8.2.0",
