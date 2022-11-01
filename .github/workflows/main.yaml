@@ -29,7 +29,8 @@ jobs:
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.6.0-chrome105-ff104
     needs: install
-
+    environment: 
+      name: cypress
     strategy: 
       fail-fast: false
       matrix:
