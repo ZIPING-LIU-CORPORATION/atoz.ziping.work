@@ -3,7 +3,9 @@ on:
   push:
     branches: [canary, clipped-canary]
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/60 * * * *' # Increase to 60 Min, because I doubt, given what's seen, Amazon IT or Legal would probably never
+                           # have a rate of action in things processed that would warrant a rate of checking their 
+                           # status every 5 minutes. As we can tell, they have not done any corrective action for over 212 days now...
 
 
    
