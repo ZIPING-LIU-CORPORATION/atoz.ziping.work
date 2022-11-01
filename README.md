@@ -53,3 +53,8 @@ Yes we are updating this page. It is a canary and is our watchdog for letting us
 #### Okay so you just released this out of nowhere, no plans written, and so what is this supposed to be for?
 
 This is for our set of projects now encompassing Operations Devleopment which seeks to ensure sites are maintained and polished. Our course is to handle it and we wil release more repos related to dev ops soon!.
+
+
+#### Do you have the cypress dashboards avaiable to view? The Github Actions doesn't at all display graphs or showcase useful analytics
+
+Yes you can view the canary dashboard for this check of @lziping employee account lziping@amazon.com email account status, [here](https://dashboard.cypress.io/projects/t7aqz7/runs)
