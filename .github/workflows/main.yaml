@@ -27,10 +27,7 @@ jobs:
     needs: install
     environment:
       name: cypress
-    strategy:
-      fail-fast: false
-      matrix:
-        containers: [1, 2]
+   
     steps:
       - name: Checkout
         uses: actions/checkout@v2
