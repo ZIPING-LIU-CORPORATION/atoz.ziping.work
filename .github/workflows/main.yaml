@@ -15,7 +15,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-
+        
+  
       - name: Cypress install
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
         with:
@@ -23,12 +24,6 @@ jobs:
           runTests: false
           build: npm install
 
-      - name: Save /__w/atoz.ziping.work/atoz.ziping.work folder
-        uses: actions/upload-artifact@v2
-        with:
-          name: build
-          if-no-files-found: error
-          path: /__w/atoz.ziping.work/atoz.ziping.work
 
   ui-chrome-tests:
     name: Catch the Cache of the Cypress then Run the Existency Check for Employee Alias in Amazon Databases
@@ -38,14 +33,6 @@ jobs:
     environment:
       cypress
     steps:
-    
-      - name: Checkout a fresh env
-        uses: actions/checkout@v2
-      - name: Cache the Catch
-        uses: actions/download-artifact@v2
-        with: 
-          name: build
-          path: /__w/atoz.ziping.work/atoz.ziping.work
 
       - name: 'UI Tests - Chrome'
         uses: cypress-io/github-action@v4.2.0 # use the explicit version number
