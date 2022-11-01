@@ -2,6 +2,7 @@
   "name": "atoz.ziping.work",
   "version": "1.0.0",
   "dependencies": {
+    "@cypress/github-action": "github:cypress-io/github-action",
     "@cypress/webpack-preprocessor": "^5.15.1",
     "@types/cypress": "^1.1.3",
     "@types/jest": "^29.2.1",
