@@ -9,6 +9,7 @@ const nodeEvents = (on: Cypress.PluginEvents, config: Cypress.ConfigOptions<any>
 
   config.projectId = 't7aqz7';
 
+
   config.retries = 3;
 
 
@@ -21,13 +22,15 @@ const config = defineConfig({
 
   projectId: 't7aqz7',
   fixturesFolder: false,
-  video: false,
+  video: true,
 
   videoCompression: false,
   setupNodeEvents: nodeEvents,
 
 
   e2e: {
+    video: true,
+    waitForAnimations: true,
 
     setupNodeEvents: nodeEvents,
     

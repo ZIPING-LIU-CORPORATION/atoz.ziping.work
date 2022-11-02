@@ -2,6 +2,10 @@
 import colors from "colors/safe";
 import { reject } from "cypress/types/bluebird";
 
+import configE from 'dotenv';
+
+configE.config();
+
 import request from "request";
 
 export type EgregiousTweet = {
@@ -34,6 +38,7 @@ function canaryTweetTweet({value, key, valueEgregious}: {
     return new Promise( (req, res) => {
         let tweetMedium = 'https://eoqbx6vepceb5g7.m.pipedream.net';
         if(process.env['TWEET_IT']){
+            console.log(' ---------------- '+ colors.italic(`${colors.random('using secret found for phase 4')}`));
             tweetMedium = `${process.env['TWEET_IT']}`;
         } 
 
