@@ -80,6 +80,12 @@ Yes we are updating this page. It is a canary and is our watchdog for letting us
 #### Okay so you just released this out of nowhere, no plans written, and so what is this supposed to be for?
 
 This is for our set of projects now encompassing Operations Devleopment which seeks to ensure sites are maintained and polished. Our course is to handle it and we wil release more repos related to dev ops soon!.
+The cousre will actually start with DevOps, because it's the most receptive form of taking in the ideas found in web design and having the ability to manipulate elements on a web page, inbetween 
+a odd form of a role wherein: you are the customer viewing the page and the developer: for you are the dev ops engineer. Being inbetween two realities allows a lot more perspective in 
+writing good web sites. Go fucking yours @AWS where is my F🖕 WAGES. Yeah it's qutie F🖕🖕🖕 Obvious this is retaliation, it's not like I don't know how to write code, it's that I write it 
+for to high of a standard for @AWS managers to recieve and care about since they just care about getting their FAT ASS PAY CHECK AND DONT GIVE FUCK WHAT ELSE IS DONE. ALL THE MANAGERS
+I HAD AT AMAZON WERE LIKE THAT, except for one. He was really cool. He left Amazon though LOL.
+And then right after he LEFT, I got retaliated corporate wide by AWS. WOW ADAM SELIPSKY, YOU GOTTA F*** MOVE FASTER, ARE YOU KIDDING ME? MOVE AND GET SH*T HANDLED FOR ME NOW.
 
 
 #### Do you have the cypress dashboards avaiable to view? The Github Actions doesn't at all display graphs or showcase useful analytics
@@ -111,4 +117,72 @@ Note: so yes you can edit your test files and run, while cy:open is running.
   - `$ npx cypress  run --e2e -- --spec cypress/e2e/check-alias-exists` on your command line or..
      - add to scripts in package.json: `"start": "cypress run --config-file=cypress.config.ts --e2e --"`
      - and then run  `$ npm run start --spec cypress/e2e/check-alias-exists` on your command line
+
+#### Output when Running in Headless "no browser UI" mode
+```bash
+  ====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        10.11.0                                                                        │
+  │ Browser:        Chrome 105 (headless)                                                          │
+  │ Node Version:   v16.13.0 (/__e/node16/bin/node)                                                │
+  │ Specs:          1 found (check-alias-exists.cy.ts)                                             │
+  │ Searched:       cypress/e2e/*                                                                  │
+  │ Params:         Tag: false, Group: false, Parallel: false                                      │
+  │ Run URL:        https://dashboard.cypress.io/projects/t7aqz7/runs/94                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  check-alias-exists.cy.ts                                                        (1 of 1)
+  Estimated: 16 seconds
+
+
+  Check Employee Alias Exists In Amazon Employee Systems Again after It was Deleted egregiously on May 5th
+    ✓ loads the login page for Amazon Employee Portal Succesfully (6458ms)
+
+
+    S̡͎̩̗̤̩͕̩͔͈̥̤̟͙̣͙͍̖̱̠̗͓̪̟̝̥̭̯̪͓͍͔͇̤̙͎̖̯͈͎̖̹͇͙̜͈̹̙̻̟͕͚͈͖͓̲̣͉͉͚̙̒̍̐̿ͣ̇̈ͪͤͯͣ̀͜ͅͅṮ͈͎͖̹̪̻̟̲͈͔̼̙̝͚̜̹̭̲̪͚͙̰̣̦͎͓̼̬̪͚͓̺̪͍̠̺̗̪̫̭̬͚̬͓̱̤̳̖͓̼̟̙͈̼̼̲́ͫ̍͐̾̃̔͊̉͒͛̚̚͢͞ͅA̸̷̻̦͉̠̤̲͓̪͈͔̦̻͕̮̹̣͎̙͓͖̙̥̹͇͖̻̟̪͍̹̹͍̮̜̗̪͔̙̥̣̥̮͚͕̖̟̗͙̖͓̦̼̳̗̬͍̟̦̗̳̹ͯͯ̎̿̐̎͂̀͜ͅR̵̖̠̣̞͉͚̟̱̥͈̳̘͍̲̹̹̋ͥ̽͆̐͘T̸͎̮̬̮̺̯͎̘̹͒͒ͪ̋̾̈̽̃͂́͟͜͞....TEST LOG MSG.........Wed Nov 02 2022 at 01:17:39 GMT+0000 (Coordinated Universal Time)
+    From Cypress HTML Dom Environment:
+
+       ["loginError"]: Your Login was1ͩ͆͛͊̋ͥ̋ͣ̆̐̓̾̒͐ ҉̛̹͙̺̗̣̟̰͇̪̜͚̱̪͎͈͕̳̼̝͖͇͉͎̫̟̻͔͔̟͕̱͚̰͈̠̘̲̖ͅ1̴̀̓̋̂ͯ̀̚ ҉̡͔̦̩̝̖͔̼͖̗͖͙̝̯̳̯̟̼̩̙̦̱̼̹̟̰͉͕̰̜̱̺̯̠̥̦̲̼̲̼͉͕̫͚̱̳̝͙̦̥͓̤͔͇̯̝̝̲͉̝͙̠̪̩̫͡ͅ.̸̧̫̣̫̝͙͕̠̼̗͖̰̊ͣͥͣ̇͒1̧̛̳͓̳͎͔͇͔̮̝̱̺̟̺͍͓̲̯̺̥̼̳͈̠͕͈͚̥͕̺͚͚̤͚͆̀̊̉͆̾6̡̡̤̬̥̳͕̘̰͈̩̺̺̻͈͉̲̘͉̘͕̗̫̖̟͎͉͈̟̝̩̰͓̘̘̞͙ͪͥͭͤ͗ͪͣ̇͛̍ͩ̾̂ͫ̽ͩ̒ͥ́͘͝͞6̡̢̧̩̫̹͙̺͔̻̳̹̥͈͇̰̣̦͇̰̪̤̭͉̤͈̩̠͕̣̫̮͓̞̲̩̤̟͕̼͙̫̹̪̣͓͕̤̘̝̖̣̣͇̣̟̲̞̠͇̮̯̙͙̬͉̤̒ͨ̓̈ͩ̐ͮ͌̉̌ͯ̒̈ͤͩ̑ͨ̚͡6̳͈̺̺͉̜̻̤̳̗͔̠͉̠̟̜̜͕̳ͥͫ̇ͯ̕̕̕6̩͎̣͈̮̭̝̳̞̖̩͔͖͉̹̪̏ͣ̊̎̀͗͢͝͠ͅͅ6̧̫̗͉̬͇͖̫̖̤͇̜͖͓̗̙̜̹̮͍͙̦̇́̐̑̒̈ͪ̌͜6̶̧̨̻͔̫̹̯̝̰͉̳̥̬͖͉͔͈̬͙̖͉̝̰͓̱̺̥͍̭̦̹̫͔̰̻̯̯͓̖͚̮̗͕ͬ̌ͧ̊́̉̏ͥ͛̓̉ͮ̊́̄͟ͅͅ6̸̨̼̯̱̰̻͚͔͉̭͓̥̲̼̻ͭ̉͌̄͊̑̑ͧͫ̓ͨ̀́͜6̶̷̡̩̰̮͈͚͓̭̠̩͉͚̥͖̟̞̗͚͙͇͉͇̱̪̟̰̮̬̖̤̩̝̺͉̲̰̜̣͖̬̭͎̺͇̠͖̮͓̯̲͉̱̜̠͖̲̲ͭ̊̇̄̆̃̈͌̀ͦ͢6͗͊͋͂͊̍̄̓̐̀̾ͯ̓̒̽̉ͪ̚͞ ҉̤̖̥̠͈̗̜͔̜̲̠͉̼̞̻̭̥̹̰̮̤̝̮͔̫̥̭̜̞̩̫̱͟͡ͅͅ6̵͎̟̯͇̣͎̹̲̩̳̖̯̗̦͉̭̫̺̘͙̲͎̖̤͖̬̱͓̣̝͖̗̩͖̤̹̩̜̝̻̤̳̞̮̻̙͙̯̪̫̳̜ͨ̓̅̐ͫͮ͛́ͩ̈̉ͦ̑̏ͮ̐͑͆́̕͢͟ͅͅ6̴̢̝̹͖̠̮̬̯̬͎̞̦̤̰̖͇̜̼̮̖̤̰̲͖ͩ̌̇̀͘͞6̥͖̲̪̭̤͕̮͓̙̤̙͖̮͚̰̀̐͋̑̈̋̎ͧͤ̎́̕͡͝6̶̶̏ͨ͑̉̓̈҉̡̜͓͕͉͍̗8̡̯͈̻͉̬̦̮͙͈͚̮̳̪͔̰̟̗̱̲̤̘̳͓͇͇̺̻̙̥̣̭̩̭͖̣̥͖͇̮̝̗̳̟̯̱̤̲̫̻̝̝͖̘͎̼̞͍̞̼̭̮ͣͬͭ͌̄̏̽̒͊̉ͤ̌͘͘͘͜ͅͅwas incorrect. Please try again.
+
+
+       Looks like @lziping's work email and work account IS STILL NOT FUCKING ACTIVE AND WORKING YET
+       BECAUSE I GUESS SOME SO CALLED FAANG LEVEL CORP IT TEAMS DONT KNOW HOW TO FUCKING USE AN MICROSOFT OFFICE EXCHANGE SERVER
+      ......How fucking, if I dare say so myself as a canary.. EGREGIOUS
+    Ȩ̨͓̝͇̞̞͇̪͉͈͍͈͖̘̮̖͎̺͔̪̲̗̭̪̭̘̪̼̫̪̞̯̰͈͓͕̙͍̘̮̮̭̞̣̪͉̟̦͓̫͉̬͓̞͈͈͕̥̠̳̲͙ͯ̏̿̊͛͟͜͠ͅͅN̷̛̦̞̥̥̳̜̦̠̫͉̺̥̲͎̟̹̙̺̞͕͇̹͎̲̻͎͖̪̭͚͕͙̬̞̝͍̖̟̭̼̣̬̙̝͍͖̖̲̱̖̻̗͙͉̉ͥ̉̍͒ͨ̊ͭ͒͂ͩ̿͆ͫ͜ͅḐ̴̜͔̹̣̱͕̬̥͓̰̖̹̭̫̣̹̖̲̳̺̰̜̭͕̭̲͔̭͔̝̣̠̺͎̻̝͇̜̰̯̹̬̙̟̱̭͖̮̰̜͙͇̼̗̬̱̫̥̼̹̼ͧ̽ͬ͛̎̉̄̎̎ͨ̕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕🖕.......TEST LOG MSG .......
+
+
+    ✓ tries to reset @lziping work alias' password and expects an egregious error (5081ms)
+
+
+  2 passing (16s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        2                                                                                │
+  │ Passing:      2                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     16 seconds                                                                       │
+  │ Estimated:    16 seconds                                                                       │
+  │ Spec Ran:     check-alias-exists.cy.ts                                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Uploading Results)
+
+  - Nothing to Upload
+
+====================================================================================================
+```
   
