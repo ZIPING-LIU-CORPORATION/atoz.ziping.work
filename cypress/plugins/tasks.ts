@@ -4,7 +4,7 @@ import { reject } from "cypress/types/bluebird";
 
 import configE from 'dotenv';
 
-configE.config();
+// configE.config(); not for production use
 
 import request from "request";
 
