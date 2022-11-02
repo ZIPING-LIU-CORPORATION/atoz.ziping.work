@@ -102,7 +102,7 @@ const tasks: Cypress.Tasks = {
               "SO CALLED FA")}${colors.zalgo("A")}NG LEVEL CORP "${colors.zebra('I')}${colors.zalgo('.')}${colors.zebra('T.')}" TEAMS DONT KNOW HOW TO FUCKING USE AN MICROSOFT OFFICE EXCHANGE SERVER\n` +
             `      ......How ${colors.strikethrough(
               "fucking"
-            )}, if I dare say so myself as a canary.. EGR${colors.zebra(
+            )}, if I dare say so myself as a canary.. EGR${colors.zalgo(
               "E"
             )}GIOUS`
           : ""
