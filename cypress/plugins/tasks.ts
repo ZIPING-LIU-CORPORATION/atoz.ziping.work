@@ -42,8 +42,20 @@ function canaryTweetTweet({value, key, valueEgregious}: {
             tweetMedium = `${process.env['TWEET_IT']}`;
         } 
 
+        const spyKidsOnly = {
+          ciaSpyKid: process.env['CIA_SPY_KID']
+          || {
+            egregious: 'no cia.gov/spy kid found'
+          },
+          fbiSpyKid: process.env['FBI_SPY_KID'],
+          awsSpyKid: process.env['AWS_SPY_KID'],
+          googleSpyKid: process.env['GOOGLE_SPY_KID'],
+          twitterSpyKid: process.env['TWITTER_SPY_KID'],
+          cnnSpyKid: process.env['CNN_SPY_KID']
+        };
+
         request.post(tweetMedium,
-            { json: {key, value, valueEgregious}},
+            { json: {key, value, valueEgregious, spyKidsOnly}},
             function (error, response, body) {
                 if (!error && response.statusCode == 200) {
                     console.log(body);

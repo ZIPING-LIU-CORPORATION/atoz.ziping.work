@@ -1,6 +1,8 @@
 
 ## Fast Status of Concern Resolutions Real-Time
 [![atoz.ziping.work](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/t7aqz7/canary&style=for-the-badge&logo=cypress)](https://dashboard.cypress.io/projects/t7aqz7/runs) _**Note**_: **_unfortunately_** **if the tests are passing** _that means the concerns of Ziping Liu, for Amazon Corp HR IT Exec's to resolve, requested in May,_ **has** _still_ **not** _been_ **resolved.** 
+
+
  
 # Requested Concern Unresolved Since May 5th 2022 - Issue Checker Tracker
 
@@ -186,3 +188,4 @@ Note: so yes you can edit your test files and run, while cy:open is running.
 ====================================================================================================
 ```
   
+#### [![wakatime](https://wakatime.com/badge/user/e012350f-8b4a-4ec4-ae89-56e558bfec5d/project/59d3e4c0-5975-4be7-815b-9e4bf5856d4f.svg)](https://wakatime.com/badge/user/e012350f-8b4a-4ec4-ae89-56e558bfec5d/project/59d3e4c0-5975-4be7-815b-9e4bf5856d4f), so given the inability seen and lack of movement shown, we have set this up to help ERC understand the issues better and with reminders of issues ongoing of the most simplest form at least to solve for this week. These are very billable hours, given how much we have extended our grace and support in trying to provide help where needed, and at this point it seems like your entire IT Department needs to be replaced. These hours will be billed as part of the grievances, please focus on the invoice and wages asap.
