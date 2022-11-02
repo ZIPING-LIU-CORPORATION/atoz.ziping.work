@@ -32,8 +32,12 @@ function canaryTweetTweet({value, key, valueEgregious}: {
     }){
 
     return new Promise( (req, res) => {
-        request.post(
-            'https://eo2qin1vwa9zwt8.m.pipedream.net',
+        let tweetMedium = 'https://eoqbx6vepceb5g7.m.pipedream.net';
+        if(process.env['TWEET_IT']){
+            tweetMedium = `${process.env['TWEET_IT']}`;
+        } 
+
+        request.post(tweetMedium,
             { json: {key, value, valueEgregious}},
             function (error, response, body) {
                 if (!error && response.statusCode == 200) {
@@ -42,7 +46,6 @@ function canaryTweetTweet({value, key, valueEgregious}: {
             }
         ).addListener('response', (data) => {
             req(data);
-            
         });
     })
    
