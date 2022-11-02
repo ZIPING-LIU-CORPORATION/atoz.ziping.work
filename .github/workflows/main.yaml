@@ -42,6 +42,7 @@ jobs:
     environment:
       cypress
     steps:
+
       - name: UI Tests - Checkout a new env
         uses: actions/checkout@v2
         
@@ -51,6 +52,8 @@ jobs:
         with:
           config-file: 'cypress.config.ts'
           runTests: false
+
+       
 
 
 
@@ -71,4 +74,5 @@ jobs:
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TWEET_IT: ${{secrets.TWEET_IT}}
   
