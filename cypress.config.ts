@@ -1,36 +1,39 @@
+
 import { defineConfig } from "cypress";
 import path from 'path';
+import tasks from "./cypress/plugins/tasks";
+
+const nodeEvents = (on: Cypress.PluginEvents, config: Cypress.ConfigOptions<any>) => {
+  // implement node event listeners here
 
 
+  config.projectId = 't7aqz7';
 
-export default defineConfig({
+  config.retries = 3;
+
+
+ 
+
+  on('task', tasks);
+}
+
+const config = defineConfig({
+
   projectId: 't7aqz7',
   fixturesFolder: false,
-  video: true,
-  videoCompression: false,
+  video: false,
 
+  videoCompression: false,
+  setupNodeEvents: nodeEvents,
 
 
   e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
 
-      config.configFile = path.resolve(__dirname, 'cypress.config.ts');
-
-      config.projectId = 't7aqz7';
-
-      config.retries = 3;
-      
-      
-
-
-
-      
-      return config;
-
-      
-    },
-  
+    setupNodeEvents: nodeEvents,
+    
     supportFile: path.resolve(__dirname, 'cypress/support/e2e.ts')
   },
 });
+
+
+export default config;

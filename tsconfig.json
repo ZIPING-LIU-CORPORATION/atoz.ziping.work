@@ -107,6 +107,6 @@
   "exclude": [
     "node_modules"
   ],
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "cypress/support/index.d.ts", "./cypress.config.ts", "./cyprss/plugins/tasks.d.ts"]
 
 }

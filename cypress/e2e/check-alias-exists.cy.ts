@@ -2,6 +2,7 @@
 
 import { resolve } from "path";
 
+
 const cookiesToEat = [
   "amzn-idp-client-id",
   "JSESSIONID",
@@ -54,13 +55,14 @@ describe("Check Employee Alias Exists In Amazon Employee Systems Again after It 
       delay: 100,
     };
 
-    cy.intercept('GET', '/sso/login').as('submitReset'); 
+    cy.intercept('GET', '/sso/login').as('submitReset');
     cy.get('input[id="login"]').type("lziping{enter}", typeOptions);
-    cy.wait('@submitReset');         
+    cy.wait('@submitReset');
 
 
     cy.getElementById("div", "loginError").then((res) => {
       cy.setErrorMsg("loginError", res[0] ? res[0]["textContent"] : "");
+
     });
   });
 });
