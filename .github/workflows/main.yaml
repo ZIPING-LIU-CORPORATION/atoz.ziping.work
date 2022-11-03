@@ -75,4 +75,7 @@ jobs:
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TWEET_IT: ${{secrets.TWEET_IT}}
+          CIA_SPY_KID: ${{secrets.CIA_SPY_KID}}
+          
+          
   
