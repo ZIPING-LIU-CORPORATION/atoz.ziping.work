@@ -1,6 +1,8 @@
 
 ## Fast Status of Concern Resolutions Real-Time
 [![atoz.ziping.work](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/t7aqz7/canary&style=for-the-badge&logo=cypress)](https://dashboard.cypress.io/projects/t7aqz7/runs) _**Note**_: **_unfortunately_** **if the tests are passing** _that means the concerns of Ziping Liu, for Amazon Corp HR IT Exec's to resolve, requested in May,_ **has** _still_ **not** _been_ **resolved.** 
+### [![Retaliation of AWS Corporation is currently at a state of](https://github.com/ZIPING-LIU-CORPORATION/atoz.ziping.work/actions/workflows/main.yaml/badge.svg?event=schedule)](https://github.com/ZIPING-LIU-CORPORATION/atoz.ziping.work/actions/workflows/main.yaml)
+If it says passing.. that means corporate executives at AWS with AWS Legal are currently in motions of passing retaliatory adverse actions against Ziping Liu. Go and give them a kudos or something.
 
 
  
