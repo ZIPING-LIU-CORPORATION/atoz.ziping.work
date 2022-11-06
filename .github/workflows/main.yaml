@@ -70,7 +70,8 @@ jobs:
           run-tests: 'true'
 
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          # CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} We have reached the max of 500 runs allowed for recording on cypress.io - 
+            ## Cypress.io is now part of retaliation against LIU LLC COngrats
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
