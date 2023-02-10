@@ -1,4 +1,4 @@
-name: Cypress Tests with Install Job and a Scheduled Case
+name: Cypress Tests with Install Job and a Scheduled Case Every 30 Minutes
 
 ### Notice: 
 ##### Thhe fact that is is still an issue given three months of wilful misconduct by Amaozn IT is probably th emost sealed disastor for Amaozn Executives. The program does not have feelings nor intent 
@@ -80,7 +80,8 @@ jobs:
           run-tests: 'true'
 
         env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} We have reached the max of 500 runs allowed for recording on cypress.io - 
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} 
+            ## We have reached the max of 500 runs allowed for recording on cypress.io - 
             ## Cypress.io is now part of retaliation against LIU LLC COngrats
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
