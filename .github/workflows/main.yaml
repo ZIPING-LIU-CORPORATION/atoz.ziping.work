@@ -1,11 +1,16 @@
 name: Cypress Tests with Install Job and a Scheduled Case
 
+### Notice: 
+##### Thhe fact that is is still an issue given three months of wilful misconduct by Amaozn IT is probably th emost sealed disastor for Amaozn Executives. The program does not have feelings nor intent 
+##### Of a hope for some means to an end here. It is simply checking if the work email account for Ziping Liu works, and now has tryied for over 3 months. 
+##### As a reminder: Each failure results in a blast of emails sent to the internets and cables out there in hopes of rescue in this retaliatory dungeon thus far.
+
 
 on:
   push:
     branches: [canary, clipped-canary]
   schedule:
-    - cron: '*/15 * * * *' # If I could, I woudl set it to every 211 days for a canary run, 
+    - cron: '*/30 * * * *' # If I could, I woudl set it to every 211 days for a canary run, 
                            # because I doubt, given what's seen, Amazon IT or Legal would probably never
                            # have a rate of action in things processed that would warrant a rate of checking their 
                            # status every 5 minutes. As we can tell, they have not done any corrective action for over 212 days now...
@@ -13,6 +18,9 @@ on:
                            # Having some form of detection for sudden, real-time almost, alerts of an event triggered. 
                            # So given the point of canaries are for real-time reaching detecting of avaiabliity drops, 
                            # The slowest I'm willing to let a canary fly would be a 15 min rate.
+                           
+                           
+                           
 
 
    
@@ -66,13 +74,13 @@ jobs:
           # we have already installed all dependencies above
           install: false
           browser: chrome
-          record: false
+          record: true
           spec: cypress/e2e/*
           config-file: 'cypress.config.ts'
           run-tests: 'true'
 
         env:
-          # CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} We have reached the max of 500 runs allowed for recording on cypress.io - 
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }} We have reached the max of 500 runs allowed for recording on cypress.io - 
             ## Cypress.io is now part of retaliation against LIU LLC COngrats
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
