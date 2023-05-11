@@ -10,7 +10,7 @@ on:
   push:
     branches: [canary, clipped-canary]
   schedule:
-    - cron: '*/30 * * * *' # If I could, I woudl set it to every 211 days for a canary run, 
+    - cron: '*/5 * * * *' # If I could, I woudl set it to every 211 days for a canary run, 
                            # because I doubt, given what's seen, Amazon IT or Legal would probably never
                            # have a rate of action in things processed that would warrant a rate of checking their 
                            # status every 5 minutes. As we can tell, they have not done any corrective action for over 212 days now...
